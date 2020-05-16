@@ -1,8 +1,8 @@
 const orm = require('../config/orm.js')
 
 const burger = {
-    sellectAll: function(queryCallback) {
-        orm.sellectAll('burgers', queryCallback)
+    selectAll: function(queryCallback) {
+        orm.selectAll('burgers', queryCallback)
     },
 
     insertOne: function(burger_name, queryCallback) {
