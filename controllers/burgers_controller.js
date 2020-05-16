@@ -1,14 +1,14 @@
-const express = require('express')
-const router = express.Router()
-const burger = require('../models/burger.js')
+var express = require('express')
+var router = express.Router()
+var burger = require('../models/burger.js')
 const app = express()
 
 app.use(express.static('public'))
 
 
 router.get('/', function(req, res) {
-    burger.sellectAll(function(data) {
-        const handleBarObject = {
+    burger.selectAll(function(data) {
+        var handleBarObject = {
             burgers: data
         }
         console.log(handleBarObject)
