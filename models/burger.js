@@ -1,6 +1,6 @@
-const orm = require('../config/orm.js')
+var orm = require('../config/orm.js')
 
-const burger = {
+var burger = {
     selectAll: function(queryCallback) {
         orm.selectAll('burgers', queryCallback)
     },
