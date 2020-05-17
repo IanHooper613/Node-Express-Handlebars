@@ -6,6 +6,8 @@ const app = express()
 app.use(express.static('public'))
 
 
+//creating routes
+
 router.get('/', function(req, res) {
     burger.selectAll(function(data) {
         var handleBarObject = {
@@ -34,6 +36,7 @@ router.post('/burger/restore', function(req, res) {
     })
 })
 
+//exports routes for server.js
 module.exports = router
 
 
