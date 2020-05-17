@@ -1,3 +1,4 @@
+//imports mysql connection
 var connection = require('./connection.js')
 
 const orm = {
