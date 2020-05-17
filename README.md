@@ -8,6 +8,7 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
+
 ## Screenshot of application
 ![image](https://user-images.githubusercontent.com/60622571/82159691-14b55f80-985e-11ea-96c6-3bcc639d7780.png)
 
@@ -17,8 +18,9 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
+
 ## Table of Contents
-  * [Technologies-Used](#Technologies Used)  
+  * [Technologies](#Technologies)  
   * [Installation](#Installation)
   * [Credits](#Credits)
   * [License](#License)
@@ -29,7 +31,8 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
-  ## Technologies Used
+
+  ## Technologies
     * HTML
     * CSS
     * Bootstrap
@@ -40,6 +43,8 @@ A restaurant app that allows users to input the names of burgers they would like
     * Express.js
     * MySQL
     * Heroku
+
+
 
 
 
@@ -57,16 +62,13 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
-  ## Credits
-  Mike Hoyt played a big part in getting this application to work.
 
-
-
-
-
-
+  
   ## License
   Currently there are not any licenses for this application.  We hope to have a license in the near future.
+
+
+
 
 
 
