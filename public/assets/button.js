@@ -1,9 +1,11 @@
 $(document).ready(function() {
+    
+    //when button is clicked, it creates a function
     $('#submit-button').on('click', function() {
         var burgerData = {
             burger_name: $('#new_burger').val().trim()
         }
-     
+    //sends a post request
     $.ajax("/burger/create", {
         type: "POST",
         data: burgerData        
@@ -14,12 +16,12 @@ $(document).ready(function() {
         });
     });	
 
-
+    //funcion when devoured button is clicked
     $('.devour-button').on('click', function() {
         var devourData = {
             id: $(this).attr('data-id')	
         }
-        
+    //send a post request    
     $.ajax("/burger/eat", {
         type: "POST",
         data: devourData
@@ -30,11 +32,13 @@ $(document).ready(function() {
         });  
     });	
 
+    //function when restore button is clicked
     $('.restore-button').on('click', function() {
         var restoreData = {
             id: $(this).attr('data-id')	
         }
-    
+        
+        //send a post request
         $.ajax("/burger/restore", {
             type: "POST",
             data: restoreData
