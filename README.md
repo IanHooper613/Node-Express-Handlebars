@@ -2,7 +2,7 @@
 
 
 
-# Node-Express-Handlebars
+# EAT DA BURGER
 A restaurant app that allows users to input the names of burgers they would like to eat.
 
 
@@ -33,6 +33,7 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
   ## Technologies
+
     * HTML
     * CSS
     * Bootstrap
@@ -48,8 +49,11 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
+
+
+
   ## Installation
-  The following are needed to be installed:
+  The following are needed to be installed prior to running the application:
 
   * express
   * express-handlebars
@@ -65,7 +69,7 @@ A restaurant app that allows users to input the names of burgers they would like
 
   
   ## License
-  Currently there are not any licenses for this application.  We hope to have a license in the near future.
+  Currently there are not any licenses for this application.  I hope to have a license in the near future.
 
 
 
