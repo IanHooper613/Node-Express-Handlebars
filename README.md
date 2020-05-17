@@ -32,34 +32,35 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
-  ## Technologies
+## Technologies
 
-    * HTML
-    * CSS
-    * Bootstrap
-    * Font Awesome
-    * JQuery
-    * JavaScript
-    * NodeJS
-    * Express.js
-    * MySQL
-    * Heroku
-
-
+  * HTML
+  * CSS
+  * Bootstrap
+  * Font Awesome
+  * JavaScript
+  * JQuery
+  * NodeJS
+  * Express.JS
+  * MySQL
+  * Heroku
 
 
 
 
 
 
-  ## Installation
-  The following are needed to be installed prior to running the application:
+
+
+
+## Installation
+The following are needed to be installed prior to running the application:
 
   * express
   * express-handlebars
   * mysql
 
-  To run the application, simply type "node server.js" in the command line.
+To run the application, simply type "node server.js" in the command line.
 
 
 
@@ -68,8 +69,8 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
   
-  ## License
-  Currently there are not any licenses for this application.  I hope to have a license in the near future.
+## License
+Currently there are not any licenses for this application.  I hope to have a license in the near future.
 
 
 
@@ -78,5 +79,5 @@ A restaurant app that allows users to input the names of burgers they would like
 
 
 
-  ## Questions
-  If there are any questions, feel free to reach out to me at https://github.com/ianhooper613.
+## Questions
+If there are any questions, feel free to reach out to me at https://github.com/ianhooper613.
